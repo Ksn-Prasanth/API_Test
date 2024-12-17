@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="codeprism123" parallel="tests">
-<!--    <test name="ksn">-->
+<!--    <test name="cookies">-->
 <!--        <classes>-->
 <!--            <class name="org.codeprism.Cookies"/>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="ksn2">
+<!--    <test name="headers">-->
+<!--        <classes>-->
+<!--            <class name="org.codeprism.Headers"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="validations">
         <classes>
-            <class name="org.codeprism.Headers"/>
+            <class name="org.codeprism.parsingResponseBody"/>
         </classes>
     </test>
+<!--    <test name="parameters">-->
+<!--        <classes>-->
+<!--            <class name="org.codeprism.Parameters"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

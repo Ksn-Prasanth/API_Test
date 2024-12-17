@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class Headers {
-    //@Test(priority = 1)
+    @Test(priority = 1)
     void testHeaders() {
         given()
                 .when()
@@ -15,7 +15,8 @@ public class Headers {
                 .then()
                 .header("Content-Type", "text/html; charset=ISO-8859-1")
                 .header("Content-Encoding", "gzip")
-                .header("Server", "gws");
+                .header("Server", "gws")
+                .log().headers(); //only to print headers
     }
 
     @Test(priority = 2)

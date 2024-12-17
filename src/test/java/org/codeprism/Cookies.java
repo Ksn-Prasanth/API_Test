@@ -18,7 +18,7 @@ public class Cookies {
                 .log().all();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     void getCookieInfo() {
         Response res = given()
                 .when()
