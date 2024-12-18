@@ -2,7 +2,6 @@ package org.codeprism;
 
 import org.testng.annotations.Test;
 import io.restassured.module.jsv.JsonSchemaValidator;
-
 import static io.restassured.RestAssured.*;
 
 public class jsonschemavalidation {
